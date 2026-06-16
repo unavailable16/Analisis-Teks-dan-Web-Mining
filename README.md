@@ -4,7 +4,8 @@ Ahdan Setya Ananta (241011401331)
 Dina Aura Nur (241011401694)
 Aji Mulya Wardana (241011401335)
 
-Video Presentasi : https://youtu.be/fhSyJeT-8Dg
+- Video Presentasi : https://youtu.be/fhSyJeT-8Dg
+- Dataset : https://drive.google.com/file/d/1cBq_e5m2yr5yH99bmmnPzfWxyaf9rGjg/view?usp=sharing
 
 <img width="1917" height="1079" alt="Screenshot 2026-06-16 161236" src="https://github.com/user-attachments/assets/e50e0317-171b-47b9-b956-9ebfdac1e4d3" />
 <img width="1916" height="1079" alt="Screenshot 2026-06-16 161243" src="https://github.com/user-attachments/assets/cceab072-cfe6-4995-97e1-49e5aa3c0353" />
