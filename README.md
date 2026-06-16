@@ -18,10 +18,10 @@ Video Presentasi : https://youtu.be/fhSyJeT-8Dg
 <img width="1336" height="752" alt="Screenshot 2026-06-16 213147" src="https://github.com/user-attachments/assets/1fea5693-f4f4-49f7-a8e7-2c4eea937423" />
 <img width="1334" height="748" alt="Screenshot 2026-06-16 213152" src="https://github.com/user-attachments/assets/6935920e-db40-4bd7-b0af-04ccbf02510f" />
 
-Code : 
+## Code 
 <img width="715" height="975" alt="image" src="https://github.com/user-attachments/assets/60097e35-301e-49fd-900c-d6996d15da1d" />
 <img width="417" height="942" alt="image" src="https://github.com/user-attachments/assets/cfe94913-67e9-4648-9789-a8200215b665" />
 <img width="381" height="145" alt="image" src="https://github.com/user-attachments/assets/d21e7d09-d3ef-4feb-ab6f-faa38b728d2d" />
 
-Output : 
+## Output 
 <img width="569" height="860" alt="image" src="https://github.com/user-attachments/assets/d77b697c-227e-4384-8527-a34e62b0523b" />
