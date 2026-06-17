@@ -66,6 +66,67 @@ Contoh review:
 Positif: "This movie was fantastic and amazing."
 Negatif: "This movie was boring and a waste of time." 
 
+### Code 
+<img width="715" height="975" alt="image" src="https://github.com/user-attachments/assets/60097e35-301e-49fd-900c-d6996d15da1d" />
+<img width="417" height="942" alt="image" src="https://github.com/user-attachments/assets/cfe94913-67e9-4648-9789-a8200215b665" />
+<img width="381" height="145" alt="image" src="https://github.com/user-attachments/assets/d21e7d09-d3ef-4feb-ab6f-faa38b728d2d" />
+
+### Output 
+<img width="569" height="860" alt="image" src="https://github.com/user-attachments/assets/d77b697c-227e-4384-8527-a34e62b0523b" />
+
+### Penjelasan Output 
+1. Untuk Tahap TF-IDF Matrix
+50.000 adalah jumlah data review, sedangkan 5000 adalah jumlah kata penting yang dipilih sistem sebagai fitur analisis.
+   
+2. Untuk Tahap Accuracy Model
+   Hasil evaluasi menunjukkan nilai akurasi sebesar 0.8489 atau sekitar 84,89 persen. Ini berarti dari seluruh data testing yang digunakan, model berhasil melakukan klasifikasi sentimen dengan benar pada sekitar 85 persen data. Artinya dari 10.000 data testing, sekitar 8.489 data berhasil diprediksi dengan benar.
+
+4. Untuk Classification Report
+   Precision mengukur seberapa banyak prediksi model yang benar dari seluruh prediksi yang dibuat pada suatu kelas. Ketika model memprediksi review sebagai negatif, sekitar 85 persen prediksi tersebut benar-benar negatif, begitu pula dengan yang positif
+
+   Recall mengukur seberapa banyak data yang berhasil ditemukan dengan benar oleh model dibandingkan seluruh data asli pada kelas tersebut. Dari seluruh review negatif yang sebenarnya ada pada dataset, model berhasil mengenali sekitar 85 persen.
+
+   F1-Score merupakan gabungan antara precision dan recall yang digunakan untuk melihat keseimbangan performa model. Kita mendapatkan nilai 0.85 artinya model memiliki performa yang stabil karena precision dan recall berada pada nilai yang seimbang. Kenapa semuanya bernilai 0.85 atau 85% ? Karena model memiliki performa yang cukup konsisten pada kedua kategori sentimen, baik positif maupun negatif. Ini menunjukkan model tidak terlalu bias terhadap salah satu kelas.
+
+5. Untuk Confusion Matrix
+      Prediksi
+            Negatif   Positif
+
+Actual Neg    4193      768
+
+Actual Pos     743      4296
+
+Artinya Sebanyak 4193 review negatif berhasil diprediksi dengan benar sebagai negatif. Lalu sebanyak 768 review negatif salah diprediksi sebagai positif. Sebanyak 743 review positif salah diprediksi sebagai negatif. Lalu sebanyak 4296 review positif berhasil diprediksi dengan benar sebagai positif.
+
+6. Hasil Prediksi Review Baru
+
+- Output pertama
+Review :
+This movie was amazing and very entertaining
+
+Sentiment :
+positive
+
+Pada tahap pengujian akhir, saya memasukkan review baru yang belum pernah dilihat model sebelumnya.
+Review pertama berisi kata-kata seperti amazing dan entertaining, yang secara umum memiliki makna positif.
+Model berhasil mengenali pola tersebut dan memprediksi review sebagai sentimen positif.
+
+- Output kedua
+Review :
+The movie was boring and a waste of time
+
+Sentiment :
+negative
+
+Review kedua berisi kata-kata seperti boring dan waste of time, yang umumnya menunjukkan opini negatif terhadap film.
+Model berhasil mengenali pola kata negatif tersebut dan mengklasifikasikannya sebagai sentimen negatif.
+
+### Kesimpulan 
+Berdasarkan hasil pengujian, sistem berhasil melakukan analisis sentimen review film menggunakan kombinasi preprocessing teks, TF-IDF, dan algoritma Naive Bayes.
+
+Model memperoleh akurasi sebesar 84,89 persen, menunjukkan bahwa metode yang digunakan cukup efektif dalam membedakan review positif dan negatif.
+
+Selain itu, pengujian pada review baru juga menunjukkan bahwa model mampu melakukan prediksi terhadap data yang belum pernah dipelajari sebelumnya.
 
 <img width="1917" height="1079" alt="Screenshot 2026-06-16 161236" src="https://github.com/user-attachments/assets/e50e0317-171b-47b9-b956-9ebfdac1e4d3" />
 <img width="1916" height="1079" alt="Screenshot 2026-06-16 161243" src="https://github.com/user-attachments/assets/cceab072-cfe6-4995-97e1-49e5aa3c0353" />
@@ -79,10 +140,4 @@ Negatif: "This movie was boring and a waste of time."
 <img width="1336" height="752" alt="Screenshot 2026-06-16 213147" src="https://github.com/user-attachments/assets/1fea5693-f4f4-49f7-a8e7-2c4eea937423" />
 <img width="1334" height="748" alt="Screenshot 2026-06-16 213152" src="https://github.com/user-attachments/assets/6935920e-db40-4bd7-b0af-04ccbf02510f" />
 
-## Code 
-<img width="715" height="975" alt="image" src="https://github.com/user-attachments/assets/60097e35-301e-49fd-900c-d6996d15da1d" />
-<img width="417" height="942" alt="image" src="https://github.com/user-attachments/assets/cfe94913-67e9-4648-9789-a8200215b665" />
-<img width="381" height="145" alt="image" src="https://github.com/user-attachments/assets/d21e7d09-d3ef-4feb-ab6f-faa38b728d2d" />
 
-## Output 
-<img width="569" height="860" alt="image" src="https://github.com/user-attachments/assets/d77b697c-227e-4384-8527-a34e62b0523b" />
