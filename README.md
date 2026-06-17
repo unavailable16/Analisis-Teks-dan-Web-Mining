@@ -89,6 +89,7 @@ Negatif: "This movie was boring and a waste of time."
    F1-Score merupakan gabungan antara precision dan recall yang digunakan untuk melihat keseimbangan performa model. Kita mendapatkan nilai 0.85 artinya model memiliki performa yang stabil karena precision dan recall berada pada nilai yang seimbang. Kenapa semuanya bernilai 0.85 atau 85% ? Karena model memiliki performa yang cukup konsisten pada kedua kategori sentimen, baik positif maupun negatif. Ini menunjukkan model tidak terlalu bias terhadap salah satu kelas.
 
 5. Untuk Confusion Matrix
+   
       Prediksi
             Negatif   Positif
 
