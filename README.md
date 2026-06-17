@@ -7,6 +7,66 @@ Aji Mulya Wardana (241011401335)
 - Video Presentasi : https://youtu.be/fhSyJeT-8Dg
 - Dataset : https://drive.google.com/file/d/1cBq_e5m2yr5yH99bmmnPzfWxyaf9rGjg/view?usp=sharing
 
+  ## Laporan
+### Pendahuluan
+Analisis teks (text mining) merupakan proses mengekstraksi informasi dan pengetahuan dari data berbentuk teks yang tidak terstruktur. Saat ini sebagian besar data yang dihasilkan organisasi berasal dari email, dokumen, media sosial, review produk, dan berbagai sumber teks lainnya. Melalui text mining, data tersebut dapat diubah menjadi informasi yang berguna untuk pengambilan keputusan.
+
+Contoh penerapan analisis teks meliputi analisis sentimen, spam filtering, chatbot, search engine, topic modeling, dan question answering.
+
+### Text Preprocessing
+Text preprocessing adalah tahap awal yang bertujuan membersihkan data teks sebelum dianalisis. Tahapan utama meliputi:
+
+a. Tokenization
+Memecah kalimat menjadi token-token atau kata.
+
+b. Lowercasing
+Mengubah seluruh huruf menjadi huruf kecil.
+
+c. Stopword Removal
+Menghapus kata-kata umum seperti 'dan', 'yang', 'the', dan 'is' yang tidak memberikan informasi penting.
+
+d. Stemming dan Lemmatization
+Mengubah kata menjadi bentuk dasarnya sehingga variasi kata dapat dianggap sama.
+
+### Representasi Teks
+Setelah preprocessing, teks harus diubah menjadi bentuk numerik.
+
+Bag of Words (BoW):
+Representasi berdasarkan frekuensi kemunculan kata dalam dokumen.
+
+TF-IDF:
+Memberikan bobot tinggi pada kata yang sering muncul pada suatu dokumen namun jarang muncul pada keseluruhan korpus sehingga lebih informatif dibanding BoW.
+
+### Web Mining
+Web Mining adalah proses menggali informasi dari data yang tersedia di web.
+
+Jenis Web Mining:
+1. Web Content Mining: mengekstraksi informasi dari isi halaman web.
+2. Web Structure Mining: menganalisis hubungan antar halaman melalui hyperlink.
+3. Web Usage Mining: menganalisis perilaku pengguna berdasarkan log aktivitas.
+
+Contoh aplikasi:
+- Search Engine
+- Sistem Rekomendasi
+- Analisis Perilaku Pengguna
+- Monitoring Harga Produk
+  
+### Project: Analisis Sentimen Dataset IMDB
+Tujuan project adalah mengklasifikasikan review film menjadi sentimen positif atau negatif menggunakan dataset IMDB.
+
+Tahapan:
+1. Membaca dataset.
+2. Membersihkan teks.
+3. TF-IDF Vectorization.
+4. Training model Naive Bayes.
+5. Evaluasi model.
+6. Prediksi review baru.
+
+Contoh review:
+Positif: "This movie was fantastic and amazing."
+Negatif: "This movie was boring and a waste of time." 
+
+
 <img width="1917" height="1079" alt="Screenshot 2026-06-16 161236" src="https://github.com/user-attachments/assets/e50e0317-171b-47b9-b956-9ebfdac1e4d3" />
 <img width="1916" height="1079" alt="Screenshot 2026-06-16 161243" src="https://github.com/user-attachments/assets/cceab072-cfe6-4995-97e1-49e5aa3c0353" />
 <img width="1917" height="1079" alt="Screenshot 2026-06-16 161251" src="https://github.com/user-attachments/assets/824876af-afef-48ce-8802-03d255271215" />
