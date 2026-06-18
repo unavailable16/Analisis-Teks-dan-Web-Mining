@@ -4,7 +4,7 @@ Ahdan Setya Ananta (241011401331)
 Dina Aura Nur (241011401694)
 Aji Mulya Wardana (241011401335)
 
-- Video Presentasi : https://youtu.be/fhSyJeT-8Dg
+- Video Presentasi : https://youtu.be/BaN1KEOFcuk
 - Dataset : https://drive.google.com/file/d/1cBq_e5m2yr5yH99bmmnPzfWxyaf9rGjg/view?usp=sharing
 
   ## Laporan
@@ -129,7 +129,7 @@ Model memperoleh akurasi sebesar 84,89 persen, menunjukkan bahwa metode yang dig
 
 Selain itu, pengujian pada review baru juga menunjukkan bahwa model mampu melakukan prediksi terhadap data yang belum pernah dipelajari sebelumnya.
 
-<img width="1917" height="1079" alt="Screenshot 2026-06-16 161236" src="https://github.com/user-attachments/assets/e50e0317-171b-47b9-b956-9ebfdac1e4d3" />
+<img width="1918" height="1079" alt="Screenshot 2026-06-18 202231" src="https://github.com/user-attachments/assets/50a78ff1-bbeb-4551-b18d-0997ce715248" />
 <img width="1916" height="1079" alt="Screenshot 2026-06-16 161243" src="https://github.com/user-attachments/assets/cceab072-cfe6-4995-97e1-49e5aa3c0353" />
 <img width="1917" height="1079" alt="Screenshot 2026-06-16 161251" src="https://github.com/user-attachments/assets/824876af-afef-48ce-8802-03d255271215" />
 <img width="1918" height="1079" alt="Screenshot 2026-06-16 161257" src="https://github.com/user-attachments/assets/ac1e3d84-3fce-472f-bfad-7b0541e1a841" />
