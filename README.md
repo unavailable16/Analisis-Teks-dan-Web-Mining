@@ -1,8 +1,10 @@
 # Analisis-Teks-dan-Web-Mining
 Tugas Akhir Data Mining Kel1 04TPLP035
-Ahdan Setya Ananta (241011401331)
-Dina Aura Nur (241011401694)
-Aji Mulya Wardana (241011401335)
+
+-Ahdhan Setya Ananta (241011401331)
+-Dina Aura Nur (241011401694)
+-Aji Mulya Wardana (241011401335)
+-Dennis Nur Hakim (241011402423)
 
 - Video Presentasi : https://youtu.be/BaN1KEOFcuk
 - Dataset : https://drive.google.com/file/d/1cBq_e5m2yr5yH99bmmnPzfWxyaf9rGjg/view?usp=sharing
